@@ -1,0 +1,7 @@
+
+                Oc_Application Define {
+                    -name		oxs
+                    -version		1.2.1.4
+                    -machine		windows-x86_64
+                    -file		oxs.exe
+                }

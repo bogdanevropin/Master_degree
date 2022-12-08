@@ -1,0 +1,123 @@
+========== OOMMF 1.2b4 released 2020/09/30 ==========
+Significant changes since 1.2b3:
+
+  * New contributed module: ucsd_gpu
+	See oommf/app/contrib/README for instructions
+
+  * New features
+	Build support for CUDA source files.
+	Build support for gcc 9.
+	Permit builds against Tcl/Tk 8.7 (no official support yet)
+
+  * Bug fixes
+	mmDisp: Omit arrows but not pixels in display of tiny vectors.
+	mmDisp: more robust exit management; fewer abandoned data files.
+	ODT: Fix broken writing of 64-bit values in headers on Windows
+	avf2*: Make processing of -filter command line option more robust
+	boxsi: prevent hangs on shutdown when flushing data
+	RNG seeds masked instead of truncated on overflow.
+	checkpoint management more robust against system errors (disk full)
+
+========== OOMMF 1.2b3 released 2019/09/27 ==========
+Significant changes since 1.2b2:
+
+  * Bug fixes
+	Recovery when local ranlib doesn't match that on build host.
+	Improved logic for setting the default thread count.
+	Repair cache option in Oxs_RandomScalarField.
+
+========== OOMMF 1.2b2 released 2018/09/30 ==========
+Significant changes since 1.2b1:
+
+  * Bug fixes
+	Deprecated calls to panic() removed; incompatible with recent Mac OSX.
+
+	Fixed poor thread allocation when Nz=1 that harmed performance.
+
+	Repair batchmaster on Windows.
+
+========== OOMMF 1.2b1 released 2017/09/27 ==========
+Significant changes since 1.2b0:
+
+  * Revised application features
+
+	Read support for Microsoft 32-bit BMP files.
+
+  * New configuration options
+	Environment variables
+	    OOMMF_THREADLIMIT - Can use no more than this many threads.
+
+	Oc_Options
+	    oommf_thread_limit - Can use no more than this many threads.
+
+  * Bug fixes
+	Oxsii failure during shutdown when no problem defined.
+
+	Restore functioning of PPM P3 output.
+
+	Prevent mesh reporting a min vector larger than max vector.
+
+	Present schedule interface only when destination selected.
+
+	Update mmsolve2D GUI to deal with tristate radio buttons.
+
+
+========== OOMMF 1.2b0 released 2016/09/30 ==========
+Significant changes since 1.2a6:
+
+  * New components:
+	Tools and examples to make colorbars and colorwheels
+
+  * New application options
+
+	`avf2ovf -ovfversion` permits 0VF 2.0 output.
+
+	`avf2ovf -resample` now supports averaging interpolation.
+
+	`avfdiff -clip` offers subvolume operations.
+
+	`avfdiff -resample` now supports averaging interpolation.
+
+	`avfdiff -info` now reports L1 information.
+
+	Oxsii and Boxsi support new `-outdir` option to select where
+	output files are written.
+
+  * Revised application features
+
+	`avf2ovf -info` now reports location of extreme magnetization values.
+
+	System of checkpoint files for long-running solvers has been
+	significantly reformed and now an optional dialog box control
+	from the Oxsii Options and Boxsi File menus.
+
+  * Oxs extension improvements
+
+	Oxs_CGEvolve makes greater efforts to make use of SSE.
+
+	Oxs_Driver can optionally report wall time information.
+
+  * New configuration options
+	Environment variables
+	    OOMMF_C++ - Identify compiler.
+	    OOMMF_OXSLOGDIR - where logs are written.
+	    OOMMF_OUTDIR - where output files are written.
+	    OOMMF_RESTARTFILEDIR -where checkpoint files are written.
+
+	Oc_Options
+	    OxsLogs directory - where logs are written.
+	    Menu show_console_option - whether apps offer a console.
+
+  * Bug fixes
+	Thread safety improvements to Oxs_Lock to avoid race condition
+	between computation and checkpoint threads.
+
+	Missing newlines in binary OVF 2.0 output.
+
+	Improved robustness in Ow_DirSelect against lack of read access.
+
+	Improved solver robustness when MIF files contain errors.
+
+	Support multi-line text on buttons on Mac.
+
+	Improved support for very old Tcl/Tk.

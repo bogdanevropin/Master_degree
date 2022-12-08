@@ -1,0 +1,29 @@
+Contributed OOMMF modules from third parties
+============================================
+
+This OOMMF source code distribution includes in this directory a collection
+of contributed OOMMF extension modules from multiple sources.  Each module
+is contained in one subdirectory.  The contents of that subdirectory should
+correspond to the original module as published by its creators.  There may
+also be a .patch file in this directory containing changes to the module
+that the OOMMF team has found necessary in order for the module to function
+in light of changes to OOMMF.
+
+This collection is meant to be managed with the OOMMF utility program, oxspkg.
+Full documentation for oxspkg is in the OOMMF User Guide.  The command to
+make a contributed module (e.g. ucsd_gpu) available to be included in the
+build of OOMMF is
+
+   tclsh oommf.tcl oxspkg install ucsd_gpu
+
+This will place the appropriate sources, patched as needed, under the
+directory oommf/app/oxs/local so that they are included in the next OOMMF
+build.
+
+As distributed, OOMMF installs and builds all contributed modules that can
+reliably be built using only the same set of dependencies as OOMMF itself.
+Any contributed module that requires support libraries or specialized build
+tools is not included by default.  End users need to use oxspkg to install
+such modules for themselves after they verify they have a suitable build
+environment.
+
