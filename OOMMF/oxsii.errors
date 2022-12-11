@@ -106,3 +106,88 @@ Done "stdprob3.mif"
 
 [Oxsii<9748-desktopbogdan-Bogdan> 12:09:41.953 2022-12-11] 1.2.1.4 infolog:
 End "stdprob3.mif"
+
+[Oxsii<13888-desktopbogdan-Bogdan> 16:24:31.529 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -threads 4
+
+[Oxsii<13888-desktopbogdan-Bogdan> 16:24:31.627 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<13888-desktopbogdan-Bogdan> 16:24:31.864 2022-12-11] 1.2.1.4 infolog:
+Loaded "stdprob3.mif", CRC: 0xF7D16E90, 6850 bytes 
+
+[Oxsii<13888-desktopbogdan-Bogdan> 16:25:15.574 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
+
+[Oxsii<9476-desktopbogdan-Bogdan> 23:59:44.453 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/practice/Cylinder0_5000 1.mif"
+Options: -threads 4
+
+[Oxsii<9476-desktopbogdan-Bogdan> 23:59:45.631 2022-12-11] 1.2.1.4 infolog:
+Loaded "Cylinder0_5000 1.mif", CRC: 0x2EAAD7A1, 2495 bytes 
+
+[Oxsii<9476-desktopbogdan-Bogdan> 00:00:06.920 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder0_5000 1.mif"
+
+[Oxsii<9476-desktopbogdan-Bogdan> 00:00:22.284 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder0_5000 1.mif"
+
+[Oxsii<2348-desktopbogdan-Bogdan> 00:31:35.868 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Simulation_samples/Cylinder.mif"
+Options: -threads 4
+
+[Oxsii<2348-desktopbogdan-Bogdan> 00:31:35.945 2022-12-12] 1.2.1.4 LoadProblem error:
+Error loading F:/Bogdan/UNIC/2022/Master_degree/Simulation_samples/Cylinder.mif:
+	Input file "F:/Bogdan/UNIC/2022/Master_degree/Simulation_samples/Cylinder.mif" not in any MIF format
+-----------
+Stack:
+Input file "F:/Bogdan/UNIC/2022/Master_degree/Simulation_samples/Cylinder.mif" not in any MIF format
+    while executing
+"_Oxs_Mif0 ReadMif F:/Bogdan/UNIC/2022/Master_degree/Simulation_samples/Cylinder.mif {}"
+    invoked from within
+"Oxs_ProbInit $f $MIF_params"
+-----------
+Additional info: OC Oxs_Mif
+
+[Oxsii<2348-desktopbogdan-Bogdan> 00:31:38.245 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder.mif"
+
+[Oxsii<2924-desktopbogdan-Bogdan> 00:32:13.561 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder0_5000 1.mif"
+Options: -threads 4
+
+[Oxsii<2924-desktopbogdan-Bogdan> 00:32:13.704 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder0_5000 1.mif", CRC: 0x683086AD, 2495 bytes 
+
+[Oxsii<2924-desktopbogdan-Bogdan> 00:32:22.947 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder0_5000 1.mif"
+
+[Oxsii<2924-desktopbogdan-Bogdan> 00:33:07.576 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder0_5000 1.mif"
+
+[Oxsii<2924-desktopbogdan-Bogdan> 00:35:18.629 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder0_5000 1.mif"
+
+[Oxsii<8128-desktopbogdan-Bogdan> 00:35:36.773 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder0_5000 1.mif"
+Options: -threads 4
+
+[Oxsii<8128-desktopbogdan-Bogdan> 00:35:36.877 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder0_5000 1.mif", CRC: 0x683086AD, 2495 bytes 
+
+[Oxsii<8128-desktopbogdan-Bogdan> 00:35:50.309 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder0_5000 1.mif"
+
+[Oxsii<8128-desktopbogdan-Bogdan> 00:36:54.914 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder0_5000 1.mif"
+
+[Oxsii<2828-desktopbogdan-Bogdan> 00:37:32.991 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder0_5000 1.mif"
+Options: -threads 4
+
+[Oxsii<2828-desktopbogdan-Bogdan> 00:37:33.092 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder0_5000 1.mif", CRC: 0x683086AD, 2495 bytes 
+
+[Oxsii<2828-desktopbogdan-Bogdan> 00:37:55.579 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder0_5000 1.mif"
