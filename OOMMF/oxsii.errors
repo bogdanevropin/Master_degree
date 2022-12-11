@@ -1,0 +1,108 @@
+
+[Oxsii<2616-desktopbogdan-Bogdan> 10:48:38.416 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/yoyo.mif"
+Options: -threads 4
+
+[Oxsii<2616-desktopbogdan-Bogdan> 10:48:38.604 2022-12-11] 1.2.1.4 infolog:
+Loaded "yoyo.mif", CRC: 0xBD70FA8E, 7900 bytes 
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:23.179 2022-12-11] 1.2.1.4 infolog:
+End "yoyo.mif"
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:23.181 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -threads 4
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:23.224 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:23.320 2022-12-11] 1.2.1.4 infolog:
+Loaded "stdprob3.mif", CRC: 0xF7D16E90, 6850 bytes 
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:45.427 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:45.428 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -threads 4
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:45.447 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<2616-desktopbogdan-Bogdan> 11:57:45.469 2022-12-11] 1.2.1.4 infolog:
+Loaded "stdprob3.mif", CRC: 0xF7D16E90, 6850 bytes 
+
+[Oxsii<2616-desktopbogdan-Bogdan> 12:00:03.815 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
+
+[Oxsii<2616-desktopbogdan-Bogdan> 12:00:03.816 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -parameters {A 20e-12} -threads 4
+
+[Oxsii<2616-desktopbogdan-Bogdan> 12:00:03.836 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<2616-desktopbogdan-Bogdan> 12:00:03.839 2022-12-11] 1.2.1.4 LoadProblem error:
+Error loading F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif:
+	Unused parameters: A
+-----------
+Stack:
+Unused parameters: A
+    while executing
+"_Oxs_Mif3 ReadMif F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif {A 20e-12}"
+    invoked from within
+"Oxs_ProbInit $f $MIF_params"
+-----------
+Additional info: OC Oxs_Mif
+
+[Oxsii<2616-desktopbogdan-Bogdan> 12:00:10.101 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:14.576 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -parameters {A 20e-12} -threads 4
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:14.614 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:14.661 2022-12-11] 1.2.1.4 LoadProblem error:
+Error loading F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif:
+	Unused parameters: A
+-----------
+Stack:
+Unused parameters: A
+    while executing
+"_Oxs_Mif0 ReadMif F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif {A 20e-12}"
+    invoked from within
+"Oxs_ProbInit $f $MIF_params"
+-----------
+Additional info: OC Oxs_Mif
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:44.809 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -threads 4
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:44.821 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:01:44.850 2022-12-11] 1.2.1.4 infolog:
+Loaded "stdprob3.mif", CRC: 0xF7D16E90, 6850 bytes 
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:05:05.851 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:05:05.852 2022-12-11] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/OOMMF/app/oxs/examples/stdprob3.mif"
+Options: -threads 4
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:05:05.866 2022-12-11] 1.2.1.4 Oxs_Mif info:
+A=1.3939050109491238e-10, K1=100000.0, Ms=1261566.2610100801, lex=1.1806375442739078e-08, L=8.47, seed=0
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:05:05.889 2022-12-11] 1.2.1.4 infolog:
+Loaded "stdprob3.mif", CRC: 0xF7D16E90, 6850 bytes 
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:06:17.681 2022-12-11] 1.2.1.4 infolog:
+Done "stdprob3.mif"
+
+[Oxsii<9748-desktopbogdan-Bogdan> 12:09:41.953 2022-12-11] 1.2.1.4 infolog:
+End "stdprob3.mif"
