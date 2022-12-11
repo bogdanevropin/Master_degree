@@ -3,7 +3,6 @@
 ###################### CONSTANTS ####################
 set pi [expr {4*atan(1.0)}]
 set mu0 [expr 4*$pi*1e-7]
-set Hz 10
 #####################################################
 
 
@@ -17,8 +16,6 @@ set A 8e-12
 
 # Damphing coeficient
 set alpha 0.5  
-
-# Exchange lenght = 7.5e-9
 #####################################################
 
 
@@ -26,7 +23,7 @@ set alpha 0.5
 ##################### GEOMETRY ######################
 set aaxis  10e-9
 set baxis  10e-9
-set height 22e-9
+set height 88e-9
 #####################################################
 
 
@@ -56,7 +53,7 @@ proc initial {x y z} {
 	global aaxis
 	global baxis
 	global height
- 	 if ($x<0) {return "0 0 1"} else {return "0 0 -1"} 
+ 	return "0 0 1"
 }
 ####################################################################################
 
@@ -75,7 +72,7 @@ Specify Oxs_RectangularMesh:mesh [subst {
 
 Specify Oxs_UZeeman:AppliedFiled [subst {
 multiplier [expr 0.0001/$mu0]
-Hrange {{0 0 0 0 0 6000 6}}
+Hrange {{0 0 0 5000 0 0 5}}
 }]
 
 Specify Oxs_UniformExchange:Ni [subst {
@@ -104,7 +101,7 @@ Specify Oxs_MinDriver {
    norm 1
    atlas :atlas
  }}
-basename cylindr_z
+basename start_cylindr
 vector_field_output_format {text %.10g}
 }
 
