@@ -452,3 +452,200 @@ Additional info: OOMMF {} {Incomplete or incorrect initialization} -1
 
 [Oxsii<13064-desktopbogdan-Bogdan> 01:21:28.330 2022-12-12] 1.2.1.4 infolog:
 End "Cylinder5000_m5000.mif"
+
+[Oxsii<908-desktopbogdan-Bogdan> 12:51:43.646 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<908-desktopbogdan-Bogdan> 12:51:43.929 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x86D663C4, 2504 bytes 
+
+[Oxsii<908-desktopbogdan-Bogdan> 12:52:01.289 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<908-desktopbogdan-Bogdan> 12:52:43.366 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<908-desktopbogdan-Bogdan> 12:52:50.599 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:54:10.515 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:54:10.607 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x167A16E9, 2502 bytes 
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:54:24.651 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:54:34.256 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:54:38.845 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:11.603 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:11.604 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:11.645 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xE1B2786C, 2504 bytes 
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:14.388 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:18.785 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:55:21.612 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<1480-desktopbogdan-Bogdan> 12:56:44.826 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:01:24.505 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:01:24.584 2022-12-12] 1.2.1.4 LoadProblem error:
+Error loading F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif:
+	Error thrown from inside "Oxs_ExtCreateAndRegister" --- Incomplete or incorrect initialization --- Oxs_Ext initialization error in construction of Oxs_RectangularMesh:mesh --- Oxs_Ext ERROR: Invalid MIF input block detected for object Oxs_RectangularMesh:mesh: range is not an integral multiple of cellsize.
+-----------
+Stack:
+Error thrown from inside "Oxs_ExtCreateAndRegister" --- Incomplete or incorrect initialization --- Oxs_Ext initialization error in construction of Oxs_RectangularMesh:mesh --- Oxs_Ext ERROR: Invalid MIF input block detected for object Oxs_RectangularMesh:mesh: range is not an integral multiple of cellsize.
+    while executing
+"Oxs_ExtCreateAndRegister $key $init_str"
+    ('Oxs_Mif' instance method 'ReadMif' line 130)
+    invoked from within
+"_Oxs_Mif0 ReadMif F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif {}"
+    invoked from within
+"Oxs_ProbInit $f $MIF_params"
+-----------
+Additional info: OOMMF {} {Incomplete or incorrect initialization} -1
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:01:56.651 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:01:56.702 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x88FBDF2B, 2503 bytes 
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:08.286 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:15.369 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:21.738 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:32.086 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:32.086 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:32.119 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x599B505E, 2502 bytes 
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:34.564 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:36.916 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:36.917 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:36.957 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x599B505E, 2502 bytes 
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:39.170 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7276-desktopbogdan-Bogdan> 13:02:44.695 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<6496-desktopbogdan-Bogdan> 13:04:35.329 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<6496-desktopbogdan-Bogdan> 13:04:35.482 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0x289E77FF, 2505 bytes 
+
+[Oxsii<6496-desktopbogdan-Bogdan> 13:05:48.336 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<6496-desktopbogdan-Bogdan> 13:07:19.395 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<3120-desktopbogdan-Bogdan> 13:08:46.718 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<3120-desktopbogdan-Bogdan> 13:08:46.900 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xC5236612, 2505 bytes 
+
+[Oxsii<3120-desktopbogdan-Bogdan> 13:08:58.006 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<3120-desktopbogdan-Bogdan> 13:09:07.817 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<3120-desktopbogdan-Bogdan> 13:13:34.668 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:13:59.217 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:13:59.872 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xFAC0BF1D, 2506 bytes 
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:14:08.279 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:14:33.928 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:14:33.929 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:14:33.979 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xFAC0BF1D, 2506 bytes 
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:14:37.695 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<7836-desktopbogdan-Bogdan> 13:15:19.999 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:15:39.430 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:15:39.833 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xE58AAEF9, 2504 bytes 
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:15:49.489 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:19:29.508 2022-12-12] 1.2.1.4 infolog:
+End "Cylinder11_7.mif"
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:19:29.509 2022-12-12] 1.2.1.4 infolog:
+Start: "F:/Bogdan/UNIC/2022/Master_degree/Samples/Cylinder11_7.mif"
+Options: -threads 4
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:19:29.987 2022-12-12] 1.2.1.4 infolog:
+Loaded "Cylinder11_7.mif", CRC: 0xE58AAEF9, 2504 bytes 
+
+[Oxsii<9380-desktopbogdan-Bogdan> 13:19:39.613 2022-12-12] 1.2.1.4 infolog:
+Done "Cylinder11_7.mif"
